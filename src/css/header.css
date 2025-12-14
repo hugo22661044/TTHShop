@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 12px 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.logo a {
+  font-size: 22px;
+  font-weight: 700;
+  color: #ff6600;
+  text-decoration: none;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-email {
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.btn-orange {
+  padding: 8px 14px;
+  background: #ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.btn-orange:hover {
+  opacity: 0.9;
+}
+
+.cart-icon {
+  font-size: 20px;
+  text-decoration: none;
+  margin-left: 10px;
+}

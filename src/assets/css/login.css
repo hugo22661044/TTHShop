@@ -1,0 +1,155 @@
+/* 🌐 Modern Login Style inspired by Google / Facebook (2025) */
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;600&display=swap");
+
+body {
+  font-family: "Google Sans", Roboto, sans-serif;
+  background: #f7f9fc;
+  margin: 0;
+  padding: 0;
+}
+
+.login-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+
+.login-card {
+  background: #fff;
+  width: 380px;
+  padding: 40px 36px;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.login-card:hover {
+  transform: translateY(-3px);
+}
+
+.login-logo {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 8px;
+}
+
+.login-title {
+  font-size: 22px;
+  color: #202124;
+  margin: 6px 0;
+}
+
+.login-subtitle {
+  color: #5f6368;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-group label {
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: 0.2s;
+}
+
+.form-group input:focus {
+  border-color: #1a73e8;
+  box-shadow: 0 0 0 3px rgba(26, 115, 232, 0.15);
+}
+
+button[type="submit"] {
+  width: 100%;
+  margin-top: 8px;
+  padding: 12px 0;
+  background: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+button[type="submit"]:hover {
+  background: #1669c1;
+}
+
+button[disabled] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.register-link {
+  margin-top: 18px;
+  font-size: 13.5px;
+  color: #5f6368;
+}
+
+.register-link a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+
+/* --- Social Buttons --- */
+.social-login {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.social-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  background: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  color: #3c4043;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+}
+
+.social-btn img {
+  width: 20px;
+  height: 20px;
+}
+
+.social-btn:hover {
+  background: #f1f3f4;
+}
+
+.google span {
+  color: #202124;
+}
+
+.facebook span {
+  color: #1877f2;
+}

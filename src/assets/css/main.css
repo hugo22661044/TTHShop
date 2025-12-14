@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+}
+#topleft ul {
+  text-decoration: none;
+  list-style: none;
+  width: 350px;
+  padding-top: 20px;
+}
+#topleft ul li {
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#topleft ul li a {
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  color: blueviolet;
+}
+
+.header1 {
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner1 {
+  height: 104px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.ul1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  min-height: 500px;
+  width: 100%;
+  min-width: 1100px;
+  justify-content: center;
+  display: flex;
+}
+.menu {
+  height: 56px;
+  background-color: #b22d30;
+}
+.logo1 {
+  width: 560px;
+}
+
+/**********************/
+.menubar {
+  background-color: #b22d30;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+/* --- Menu bên trái --- */
+.menubar-left {
+  display: flex;
+  gap: 20px;
+}
+
+.menu-item {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.menu-item:hover {
+  text-decoration: underline;
+  opacity: 0.9;
+}
+
+/* --- Phần bên phải (tên người dùng + đăng xuất) --- */
+.menubar-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.username {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.logout-btn {
+  background-color: #fff;
+  color: #b22d30;
+  border: none;
+  border-radius: 6px;
+  padding: 5px 12px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  transition: 0.25s;
+}
+
+.logout-btn:hover {
+  background-color: #f5f5f5;
+}
+
+.login-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
