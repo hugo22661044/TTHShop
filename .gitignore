@@ -1,1 +1,12 @@
+echo node_modules/ > .gitignore
+echo build/ >> .gitignore
+echo .env >> .gitignore
+echo .env.local >> .gitignore
+echo .env.development.local >> .gitignore
+echo .env.test.local >> .gitignore
+echo .env.production.local >> .gitignore
+echo npm-debug.log* >> .gitignore
+echo yarn-debug.log* >> .gitignore
+echo yarn-error.log* >> .gitignore
+echo .DS_Store >> .gitignore
 node_modules
